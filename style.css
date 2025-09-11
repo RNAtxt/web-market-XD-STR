@@ -6,7 +6,6 @@ https://templatemo.com/tm-597-neural-glass
 
 */
 
-
 @charset "utf-8";
 /* CSS Document */
  * {
@@ -14,6 +13,18 @@ https://templatemo.com/tm-597-neural-glass
      padding: 0;
      box-sizing: border-box;
 }
+
+@media (max-width: 768px)  {
+    h1 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    .card {
+      flex-direction: column;
+      width: 100%;
+    }
+}
+
  body {
      font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
      background: #000;
